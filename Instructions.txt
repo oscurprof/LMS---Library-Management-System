@@ -1,0 +1,9 @@
+1. Download & Install IntelliJ Idea Community Edition (Ultimate is Paid!)
+2. Download JDK (Instructions: Open IntelliJ --> New Project --> Download JDK <see the reference image>)
+3. Open Project
+Either right click Project folder (open as intelliJ idea project)
+or... Open Project --> src --> main.java
+4. Trust Project
+5. Find and Open Main Class (located in src <at the last>)
+6. Run the Project (Shift+F10/Green Play Icon on Top)
+<Enjoy>
