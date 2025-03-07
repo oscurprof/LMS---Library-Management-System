@@ -48,5 +48,5 @@ Follow these steps to set up and run the LMS project on your machine.
 The project’s design is documented with UML diagrams, including:
 - **Class Diagram:** Defines `Librarian`, `Patron`, `Book`, `Borrow`, etc. classes with attributes (e.g., `patronID`, `bookID`, `dueDate`) and methods (e.g., `addPatron()`, `borrowBook()`).
 
-<img src="ProjectUML.png" width="200%" alt="UML Diagram">
+<img src="ProjectUML.png" width="500%" alt="UML Diagram">
 (Note: UML diagrams are referenced in the project documentation or can be generated from the code using IntelliJ’s UML plugin.)
