@@ -44,17 +44,9 @@ Follow these steps to set up and run the LMS project on your machine.
 
 **Enjoy!**
 
-## UML Diagrams
+## UML Diagram
 The project’s design is documented with UML diagrams, including:
-- **Class Diagram:** Defines `Librarian`, `Patron`, `Book`, and `Loan` classes with attributes (e.g., `patronID`, `bookID`, `dueDate`) and methods (e.g., `addPatron()`, `borrowBook()`).
-- **Sequence Diagram:** Illustrates librarian interactions, such as initiating a loan or updating a patron record.
-- **Use Case Diagram:** Features `Librarian` as the actor, with use cases like “Manage Patrons,” “Manage Books,” and “Process Loans.”
+- **Class Diagram:** Defines `Librarian`, `Patron`, `Book`, `Borrow`, etc. classes with attributes (e.g., `patronID`, `bookID`, `dueDate`) and methods (e.g., `addPatron()`, `borrowBook()`).
 
-![UML Diagram](ProjectUML.png)
-
-These diagrams are integral to understanding the system’s multi-user architecture and librarian-only workflows. (Note: UML diagrams are referenced in the project documentation or can be generated from the code using IntelliJ’s UML plugin.)
-## Contributing
-Feel free to fork this repository, make improvements, and submit pull requests. For major changes, please open an issue to discuss your ideas first.
-
-## License
-This project is licensed under the MIT License—see the [LICENSE](LICENSE) file for details (if applicable).
+<img src="ProjectUML.png" width="200%" alt="UML Diagram">
+(Note: UML diagrams are referenced in the project documentation or can be generated from the code using IntelliJ’s UML plugin.)
