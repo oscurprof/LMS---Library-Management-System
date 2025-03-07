@@ -1,11 +1,11 @@
 # LMS - Library Management System
 
 ## Project Description
-The **Library Management System (LMS)** is a Java-based application designed to simplify library operations for both users and administrators. Built as a Semester 3 project, this system enables users to browse, borrow, and return books, while librarians can manage the book inventory, track loans, and handle user accounts. Key features include:
+The **Library Management System (LMS)** is a Java-based application designed to simplify library operations. Built as a Semester 3 project, this system enables users to effectively manage Books, Patrons, track the borrows & returns of books. Key features include:
 
-- **Book Cataloging:** Add, update, and remove books from the library database.
-- **User Management:** Register and manage user accounts (e.g., students, members).
-- **Loan Tracking:** Monitor book borrowing and returns, including due dates.
+- **Patron Management:** Librarians can add, update, and remove patron records (e.g., patronID, name, contactInfo) to maintain an accurate database.
+- **Book Management:** Cataloging books with details like bookID, title, author, and availability, including add, update, and remove functionalities.
+- **Books Tracking:** Monitor book borrowing and returns, including due dates & fines in case of late return.
 - **Admin Controls:** Librarian functionalities to oversee the system.
 
 The project uses object-oriented principles, with a structure modeled via UML diagrams (class, use case, and sequence diagrams) to ensure modularity and scalability.
@@ -45,8 +45,14 @@ Follow these steps to set up and run the LMS project on your machine.
 **Enjoy!**
 
 ## UML Diagrams
-The project structure and functionality are designed using UML diagrams, including class, use case, and sequence diagrams. These diagrams outline the relationships between entities like `Book`, `User`, `Librarian`, and `Loan`, as well as the system’s workflow for borrowing, returning, and managing library resources. (Note: UML diagrams are available in the project documentation or can be generated from the code using tools like IntelliJ’s built-in UML plugin.)
+The project’s design is documented with UML diagrams, including:
+- **Class Diagram:** Defines `Librarian`, `Patron`, `Book`, and `Loan` classes with attributes (e.g., `patronID`, `bookID`, `dueDate`) and methods (e.g., `addPatron()`, `borrowBook()`).
+- **Sequence Diagram:** Illustrates librarian interactions, such as initiating a loan or updating a patron record.
+- **Use Case Diagram:** Features `Librarian` as the actor, with use cases like “Manage Patrons,” “Manage Books,” and “Process Loans.”
 
+![UML Diagram](ProjectUML.png)
+
+These diagrams are integral to understanding the system’s multi-user architecture and librarian-only workflows. (Note: UML diagrams are referenced in the project documentation or can be generated from the code using IntelliJ’s UML plugin.)
 ## Contributing
 Feel free to fork this repository, make improvements, and submit pull requests. For major changes, please open an issue to discuss your ideas first.
 
