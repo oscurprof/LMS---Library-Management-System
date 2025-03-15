@@ -14,9 +14,14 @@ Cataloging books with details like bookID, title, author, and availability, incl
 - ### **Patron Management:**
 Stores the patrons information like memberID, name, membership type, & expiry date (that when membership of a patron will be expired),etc. LMS allows users to add, update, & delete the patron records. <br>
 ![](/GIFs%20LMS/patrons.png)
-- **Admin Controls:** Librarian functionalities to oversee the system.
 
-The project uses object-oriented principles, with a structure modeled via UML diagrams (class, use case, and sequence diagrams) to ensure modularity and scalability.
+- ### **Borrowing:**
+When a patron wants to borrow a book from library, he/she will take the book to librarian (LMS User). LMS allows Users to register book borrowings via multiple means to facilitate users
+- Registering Borrows Directly, where user will have to manually input both Book ISBN & member ID
+- User can search a book in catalog, select borrow, and just enter member ID to Register the Borrow
+- User can search & select patron from records, and then register a borrowing against him by putting rest of details. <br>
+Note:- System Ensures Book is registered and available in library, also books can only be borrowed by a registered & active patron, system won't let user proceed otherwise <br>
+![](/GIFs%20LMS/Borrowing-%20by%20book.gif)
 
 ## Setup Instructions
 Follow these steps to set up and run the LMS project on your machine.
