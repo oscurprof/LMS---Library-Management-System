@@ -2,24 +2,21 @@
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Features](#features)
-  - [User Management](#user-management)
-  - [Book Management](#book-management)
-  - [Patron Management](#patron-management)
-  - [Borrowing](#borrowing)
-  - [Returns](#returns)
-  - [Searching Books](#searching-books)
-  - [Deleting Books/Patrons](#deleting-bookspatrons)
-- [Technical Implementation](#technical-implementation)
-  - [File-Based Data Storage](#file-based-data-storage)
-  - [Java Swing GUI](#java-swing-gui)
-  - [Core Java & OOP Implementation](#core-java--oop-implementation)
-- [Setup & Installation](#setup--installation)
+- [Key Features](#key-features)
+  - [User Authentication & Security](#1-user-authentication--security)
+  - [Book Management](#2-book-management)
+  - [Patron Management](#3-patron-management)
+  - [Advanced Search Functionality](#4-advanced-search-functionality)
+  - [Borrowing System](#5-borrowing-system)
+  - [Returns Processing](#6-returns-processing)
+  - [System Integrity Safeguards](#7-system-integrity-safeguards)
+- [Technical Specifications](#technical-specifications)
+- [Installation & Setup](#installation--setup)
 
-## Overview
+## Project Overview
 The **Library Management System (LMS)** is a comprehensive Java-based application designed to modernize and simplify library operations. Built as a Semester 3 project, this system provides an intuitive interface for managing books, patrons, and lending activities with robust features to ensure data integrity and ease of use.
 
-## 🌟 Key Features
+## Key Features
 
 ### 1. User Authentication & Security
 - Multi-user support with secure account creation and login
@@ -55,6 +52,7 @@ The **Library Management System (LMS)** is a comprehensive Java-based applicatio
 - Multi-criteria search options across all database fields
 - Real-time search results filtering
 - Quick access to borrowing and management functions from search results
+
 ![Search](/GIFs%20LMS/Searching.gif)
 
 ### 5. Borrowing System
@@ -75,7 +73,8 @@ System validations ensure:
 - Automatic due date tracking
 - Fine calculation based on configurable parameters
 - Return receipt generation
-![Patron Management Interface](/GIFs%20LMS/Fine%20Management.gif)
+
+![Fine Management](/GIFs%20LMS/Fine%20Management.gif)
 
 ### 7. System Integrity Safeguards
 - **Book deletion protection**: System prevents deletion of books currently on loan
@@ -84,13 +83,14 @@ System validations ensure:
 ![Book Deletion Protection](/GIFs%20LMS/cant%20delete.gif)
 ![Patron Deletion Process](/GIFs%20LMS/Deleting%20Patrons.gif)
 
-## 💻 Technical Specifications
+## Technical Specifications
 - Built with Java
 - Intuitive graphical user interface
-- Robust database architecture for data persistence
+- Robust file-based data storage system
 - Comprehensive error handling and input validation
+- Implementation of core OOP principles
 
-## 📋 Installation & Setup
+## Installation & Setup
 Follow these steps to set up and run the LMS project on your machine.
 
 ### 1. Download & Install IntelliJ IDEA Community Edition
@@ -115,7 +115,7 @@ Follow these steps to set up and run the LMS project on your machine.
 - IntelliJ may prompt you to "Trust Project" for security. Click "Trust Project" to proceed.
 
 ### 5. Find and Open the Main Class
-- The main class is located in the `src` folder (it’s the last file in the directory, likely named `Main.java`).
+- The main class is located in the `src` folder (it's the last file in the directory, likely named `Main.java`).
 - Double-click to open it in the editor.
 
 ### 6. Run the Project
@@ -123,5 +123,3 @@ Follow these steps to set up and run the LMS project on your machine.
 - The LMS application will launch, and you can start exploring its features.
 
 **Enjoy!**
-
-
