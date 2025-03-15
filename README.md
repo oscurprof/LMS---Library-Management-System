@@ -84,11 +84,21 @@ System validations ensure:
 ![Patron Deletion Process](/GIFs%20LMS/Deleting%20Patrons.gif)
 
 ## Technical Specifications
-- Built with Java
-- Intuitive graphical user interface
-- Robust file-based data storage system
-- Comprehensive error handling and input validation
-- Implementation of core OOP principles
+- ### **Core Java & OOP Implementation:**
+The system is built entirely using Core Java concepts including:
+  - Inheritance for extending base functionality
+  - Polymorphism for flexible operations on different types of library items
+  - Encapsulation to protect data integrity
+  - Exception handling for robust error management
+  - Collections framework for efficient data manipulation
+  - File I/O operations for persistent storage
+  - Custom data structures for optimized performance
+
+- ### **Java Swing GUI:**
+The entire user interface is built using Java Swing components, providing a responsive and intuitive experience across different operating systems. Custom components and event handling showcase advanced GUI programming techniques.
+
+- ### **File-Based Data Storage:**
+Instead of using a traditional database, the system implements a robust file-based data storage mechanism. All records of books, patrons, borrowings, and returns are stored in files, demonstrating advanced file I/O operations in Java while maintaining data integrity and relationships between records.
 
 ## Installation & Setup
 Follow these steps to set up and run the LMS project on your machine.
