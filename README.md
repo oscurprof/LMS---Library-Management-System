@@ -3,13 +3,17 @@
 ## Project Description
 The **Library Management System (LMS)** is a Java-based application designed to simplify library operations. Built as a Semester 3 project, this system enables users to effectively manage Books, Patrons, track the borrows & returns of books. Key features include:
 
-- **User Management:**
-LMS provide Multi-User Facility, Multiple Users can sign-up create accounts, & use their credentials to log-in into LMS system to manage the records.
-
+- ### **User Management:**
+LMS provide Multi-User Facility, Multiple Users can sign-up create accounts, & use their credentials to log-in into LMS system to manage the records. <br>
 ![](/GIFs%20LMS/login.gif)
 
-- **Book Management:** Cataloging books with details like bookID, title, author, and availability, including add, update, and remove functionalities.
-- **Books Tracking:** Monitor book borrowing and returns, including due dates & fines in case of late return.
+- ### **Book Management:**
+Cataloging books with details like bookID, title, author, and availability, including add, update, and remove functionalities. <br>
+![](/GIFs%20LMS/books.png)
+
+- ### **Patron Management:**
+Stores the patrons information like memberID, name, membership type, & expiry date (that when membership of a patron will be expired),etc. LMS allows users to add, update, & delete the patron records. <br>
+![](/GIFs%20LMS/patrons.png)
 - **Admin Controls:** Librarian functionalities to oversee the system.
 
 The project uses object-oriented principles, with a structure modeled via UML diagrams (class, use case, and sequence diagrams) to ensure modularity and scalability.
